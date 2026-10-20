@@ -5,8 +5,11 @@ package_manager = "pnpm"
 resolution = true
 skip-lint = false
 
-[programs.localnet]
+[programs.devnet]
 pre_req_vault = "AgBzBDejGyGXGBDJHbcTMbyjQUFLfMqFsniLC2q2FM28"
+
+[programs.localnet]
+pre_req_vault = "Gx5it45U9NS2eswoy1J3ahEr4B8FYm6xAFDmBiKozkQA"
 
 [provider]
 cluster = "localnet"
